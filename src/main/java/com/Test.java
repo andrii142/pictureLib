@@ -8,7 +8,12 @@ import java.util.Date;
 
 @Controller
 public class Test {
-    
+    @RequestMapping(value = "/")
+    public ModelAndView amin() {
+        return new ModelAndView("main.vm");
+    }
+
+
     @RequestMapping(value = "/test")
     public ModelAndView test() {
         ModelAndView modelAndView = new ModelAndView("test");
