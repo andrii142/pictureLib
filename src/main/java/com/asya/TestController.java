@@ -17,7 +17,7 @@ public class TestController {
 
     @RequestMapping(value = "/showAdEntities")
     public ModelAndView showAdEntities() {
-        ModelAndView modelAndView = new ModelAndView("users.vm");
+        ModelAndView modelAndView = new ModelAndView("asya/users.vm");
 
         List<AdEntity> adEntities = createAdEntities();
 

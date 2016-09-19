@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Asya's entities</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" type="text/css" href="../resources/css/asya/users.css">
+
+</head>
+
+<body>
+<h3>Here is a list of users:</h3>
+
+<table>
+    <tr>
+        <th>Id</th>
+        <th>City</th>
+        <th>Type of Ad</th>
+        <th>Date Created</th>
+        <th>Price</th>
+    </tr>
+    #foreach( $adEntity in $adEntities )
+            <tr>
+                <td>
+                    $adEntity.id
+                </td>
+                <td>
+                    $adEntity.city
+                </td>
+                <td>
+                    $adEntity.typeOfAd
+                </td>
+                <td>
+                    $adEntity.dateCreated
+                </td>
+                <td>
+                    $adEntity.price
+                </td>
+            </tr>
+        #end
+</table>
+</body>
+</html>

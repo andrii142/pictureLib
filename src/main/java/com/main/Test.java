@@ -23,7 +23,6 @@ public class Test {
         return modelAndView;
     }
 
-
     @RequestMapping(value = "/")
     public ModelAndView amin() {
         return new ModelAndView("main.vm");

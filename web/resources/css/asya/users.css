@@ -1,0 +1,20 @@
+body {
+    background-color: lightcyan;
+}
+
+table {
+    border: 1px solid darkblue;
+}
+
+th {
+    text-align: left;
+}
+
+th, td {
+    padding: 15px;
+}
+
+h3 {
+    padding-left: 15px;
+}
+
