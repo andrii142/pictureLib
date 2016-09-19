@@ -29,7 +29,7 @@ public class TestController {
 
     private List<AdEntity> createAdEntities() {
 
-        List<AdEntity> adEntities = new ArrayList<>();
+        List<AdEntity> adEntities = new ArrayList<AdEntity>();
         adEntities.add(new AdEntity(1001, "Kiev", "whatIsIt", new Date(), 100));
         adEntities.add(new AdEntity(1002, "NY", "whatIsIt", new Date(), 200));
         adEntities.add(new AdEntity(1003, "LA", "whatIsIt", new Date(), 300));
