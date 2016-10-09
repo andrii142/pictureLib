@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>AdEntities</title>
+    <meta name="description" content="">
+
+
+</head>
+
+<body>
+
+
+<table>
+    <tr>
+        <th>Id</th>
+        <th>City</th>
+        <th>Type of Ad</th>
+        <th>Date Created</th>
+        <th>Price</th>
+    </tr>
+    #foreach( $AdEntity in $adEntities )
+        <tr>
+            <td>
+                $AdEntity.id
+            </td>
+            <td>
+                $AdEntity.city
+            </td>
+            <td>
+                $AdEntity.typeOfAd
+            </td>
+            <td>
+                $AdEntity.dateCreated
+            </td>
+            <td>
+                $AdEntity.price
+            </td>
+        </tr>
+    #end
+</table>
+</body>
+</html>
