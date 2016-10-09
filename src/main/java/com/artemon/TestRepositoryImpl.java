@@ -13,8 +13,9 @@ public class TestRepositoryImpl {
 
     /*@Override
     public User save(User user) {
-      return  INSERT INTO AdEntities VALUES
+        INSERT INTO AdEntities VALUES
               (user.getId(), user.getCity() , user.getTypeOfAd, user.getDateCreated(), user.getPrice());
+       return SELECT user_name FROM AdEntities WHERE id = user.id;
 
     }
 
